@@ -1,0 +1,91 @@
+body {
+  background-image: url("https://static.basicinvite.com/media/bi/34797/vintage-anemones-wallpaper-l-dark-green.jpg?q=1692029140");
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+h1,
+h2,
+h3,
+p,
+figcaption {
+  color: white;
+}
+
+h1 {
+  font-size: 30pt;
+}
+
+li {
+  color: #E5EEDD;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18pt;
+}
+
+hr {
+  height: 5px;
+  background: white;
+}
+
+p {
+  font-size: 16pt;
+}
+
+h4 {
+  color: #F2D492;
+  font-size: 15pt;
+}
+
+.image {
+  width: 40%;
+  border: solid 5px #80ac91;
+  border-radius: 30px;
+  border-top: 30px;
+  border-right: 24px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  width: 60%;
+}
+
+.quoteContainer,
+.container {
+  margin: auto;
+  background-color: #2B4141;
+  align-content: center;
+  border: solid 2px white;
+  border-radius: 5px;
+}
+
+.quoteContainer {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.navButton {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  font-family: "Times New Roman", Times;
+  font-size: 14pt;
+  color: #F2D492;
+  font-weight: bold;
+}
+
+.navButton:hover {
+  color: white;
+}
+
+a:link {
+  color: #bfe8c4;
+}
+
+a:visited {
+  color: #F2D492;
+}
