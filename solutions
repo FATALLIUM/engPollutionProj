@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>PM2.5 English 2100 Essay 3</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <br>
+    <hr>
+    <h1>Good ol’ PM2.5, Diseases, and Disproportionate Exposure– All in New York</h1>
+    <figcaption>Jiamin Zeng</figcaption>
+    <hr>
+    <br>
+    <div class="container">
+        <button class="navButton" onclick="navigatePage(0);">Home</button>
+        <button class="navButton" onclick="navigatePage(1);">Heath risks</button>
+        <button class="navButton" onclick="navigatePage(2);">Vulnerable communities</button>
+        <button class="navButton" onclick="navigatePage(3);">Solutions</button>
+        <button class="navButton" onclick="navigatePage(4);">References</button>
+    </div>
+    <br>
+    <hr>
+    <h1>Possible solutions</h1>
+    <div class="quoteContainer">
+        <p>Reducing PM2.5 emissions requires dedication and proper enforcement. Ways to do this are shown below:</p>
+
+            <ul>
+                <li>Local Law 97 (Climate Mobilization Act):</li>
+                <p> - Passed in April 2019 as part of the NYC Green Deal.</p>
+                
+                <p> - Aims for net-zero emissions in the city's largest buildings by 2050, with stricter limits by 2030.</p>
+                <p> - Buildings are penalized $268 per metric tonne of CO2 over the emission limit.</p>
+                <p> - As buildings reduce fossil fuel use, PM2.5 levels also decrease (Urban Green Council).</p>
+
+                <li>NYS Clean Heat Program:</li>
+                <p> - Focuses on transitioning to cleaner energy, such as heat pumps.</p>
+                <p> - A study found significant reductions in air pollutants (e.g., PM2.5, sulfur dioxide, and nitrogen dioxide)
+                when buildings switched from #6 oil to cleaner energy.</p>
+                <p> - Greater impact observed in lower-income areas (Zhang et al.).</p>
+
+                <li>Zero Emission Vehicles (ZEVs):</li>
+                <p> - Federal Clean Air Act allows NY to adopt California’s ZEV standards, including battery-electric and hydrogen
+                fuel-cell vehicles.</p>
+                <hr>
+                <br>
+                <img class="image" src="https://www.gov.ca.gov/wp-content/uploads/2022/02/2.25-graphic-1024x513.png"
+                    alt="california zev statistics">
+                <br>
+                <hr>
+                <br>
+                <p> - ZEVs produce no engine exhaust and emit no nitrogen oxides or hydrocarbons.</p>
+                <p> - Though costly ($24,000-$40,000), ZEVs have lower maintenance costs, saving up to $6,400 over time ("Zero
+                Emission Vehicles: Driving towards the Future").</p>
+                
+            </ul>
+            <br>
+            <hr>
+            <br>
+        <p>By continuing and expanding efforts like Local Law 97, the Clean Air Act, and the Clean Heat Program, NYC can
+            work towards its emission reduction goals. </p>
+
+        
+    </div>
+</body>
+<script src=" script.js"></script>
+
+</html>

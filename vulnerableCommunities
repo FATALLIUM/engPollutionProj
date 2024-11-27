@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf8">
+    <meta name="viewport" content="width=devicewidth">
+    <title>PM2.5 English 2100 Essay 3</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <br>
+    <hr>
+    <h1>Good ol’ PM2.5, Diseases, and Disproportionate Exposure– All in New York</h1>
+    <figcaption>Jiamin Zeng</figcaption>
+    <hr>
+    <br>
+    <div class="container">
+        <button class="navButton" onclick="navigatePage(0);">Home</button>
+        <button class="navButton" onclick="navigatePage(1);">Heath risks</button>
+        <button class="navButton" onclick="navigatePage(2);">Vulnerable communities</button>
+        <button class="navButton" onclick="navigatePage(3);">Solutions</button>
+        <button class="navButton" onclick="navigatePage(4);">References</button>
+    </div>
+    <br>
+    <hr>
+    <h1>Low-income communities and PM2.5</h1>
+    <div class="quoteContainer">
+        <br>
+        <p>Neighborhoods like East Harlem, Union Square, and East Village in NYC have high levels of air pollution,
+            particularly from PM pollutants (“Exposure to Polluted Air”).</p>
+        <img class="image" src="povertyRate.png" alt="poverty rate in east harlem">
+        <hr>
+        <br>
+        <p>East Harlem Demographics:</p>
+        <ul>
+            <li>30% Black</li>
+            <li>46% Hispanic</li>
+            <li>Poverty rate of 38% (“East Harlem Neighborhood Profile”)</li>
+        </ul>
+
+        <p>Areas like East Harlem and East Village are considered Environmental Justice (EJ) neighborhoods, which mainly
+            consist of people of color or lowincome residents.</p>
+
+        <p>High-poverty neighborhoods had 4.5 times more asthma-related emergency visits due to PM2.5 than low-poverty
+            areas (Kheirbek et al).</p>
+        <hr>
+        <br>
+        <img class="image" src="adltEmergencyVisits.png" alt="adult emergency visits by neighborhood">
+        <p>NYC Department of Health and Mental Hygiene, Environment & Health Data Portal, 2022.
+        </p>
+        <br>
+        <hr>
+        <br>
+        <ul>
+            <li>Emergency visits due to PM2.5:</li>
+            <p>The number of adult emergency department visits due to PM2.5 per year (per 100, 000) in East Harlem is
+                111.6 compared to the citywide 34.6.</p>
+            <p>The number of child emergency department visits for the neighborhood and citywide is 215.5 and 78.2
+                respectively. EJ neighborhoods have almost 3 times the citywide average rate.</p>
+            <li>Exposure to emissions: </li>
+            <p>Almost all of these EJ neighborhoods are exposed to emissions from heavyduty vehicles, sources of PM2.5
+                and nitrogen oxides. To make matters worse, most neighborhoods with the highest rates of emergency
+                department visits due to pollution are located within a mile of major pollution sources, such as power
+                plants or industrial facilities (“Exposure to Polluted Air.”).</p>
+        </ul>
+        <br>
+        <hr>
+        <br>
+        <p>It can easily be inferred how socioeconomic status and geographic
+            distribution affect vulnerable populations such as the impoverished and the colored.
+        </p>
+    </div>
+</body>
+<script src=" script.js"></script>
+
+</html>
